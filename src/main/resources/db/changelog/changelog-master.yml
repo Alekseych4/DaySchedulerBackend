@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: "aleksey"
+      changes:
+        - sqlFile:
+            dbms: 'mariadb, mysql'
+            path: init.sql
+            splitStatements: true
+            relativeToChangelogFile: true
