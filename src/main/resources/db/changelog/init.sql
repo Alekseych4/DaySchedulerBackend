@@ -4,7 +4,7 @@ create table users (
     name TEXT,
     surname TEXT,
     id_in_service TEXT not null,
-    email VARCHAR(500) not null,
+    email VARCHAR(255) not null,
     profile_image_url TEXT,
     primary key (id),
     unique (email)
